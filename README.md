@@ -41,7 +41,7 @@ It uses **Snowflake** as the data warehouse platform and follows a **multi-stage
 ---
 
 ## 🏗️ Project Architecture
-![ERD Diagram](img/Weather_Data_Warehousing.drawio.png)
+![ERD Diagram](img/Weather_Data_Warehousing.png)
 
 ---
 
@@ -253,3 +253,4 @@ To handle large datasets, three ingestion methods were used:
 * **AWS S3 external stage** for very large files
 
 This structured ETL process ensures scalability, efficiency, and accurate analytics.
+
